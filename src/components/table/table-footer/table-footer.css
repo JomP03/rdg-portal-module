@@ -1,0 +1,15 @@
+.table-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.footer-pagination {
+    display: flex;
+    padding: 0 10px;
+    margin-top: 0.5rem;
+}
+
+.footer-text {
+    padding-top: 10px;
+}

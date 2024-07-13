@@ -1,0 +1,16 @@
+.row-cell {
+    flex: 1;
+    padding: 5px;
+    overflow: clip;
+    font-size: 1rem;
+}
+
+.row-cell + .row-cell {
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 650px) {
+    .row-cell {
+        font-size: 0.95rem;
+    }
+}

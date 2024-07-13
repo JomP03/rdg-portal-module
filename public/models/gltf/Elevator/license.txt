@@ -1,0 +1,11 @@
+Model Information:
+* title:	Elevator
+* source:	https://sketchfab.com/3d-models/elevator-fef403624ee14458875b25d98b37030e
+* author:	kostja334567 (https://sketchfab.com/kostja334567)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Elevator" (https://sketchfab.com/3d-models/elevator-fef403624ee14458875b25d98b37030e) by kostja334567 (https://sketchfab.com/kostja334567) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,6 @@
+.header-title {
+    font-family: "Montserrat Medium", sans-serif;
+    color: var(--background-color);
+    font-size: 5rem;
+    margin-bottom: 10px;
+}

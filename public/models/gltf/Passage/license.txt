@@ -1,0 +1,11 @@
+Model Information:
+* title:	Liminal hallway
+* source:	https://sketchfab.com/3d-models/liminal-hallway-2a325fc726554c0191017e0cd16abef7
+* author:	gatgat (https://sketchfab.com/gatgat)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Liminal hallway" (https://sketchfab.com/3d-models/liminal-hallway-2a325fc726554c0191017e0cd16abef7) by gatgat (https://sketchfab.com/gatgat) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

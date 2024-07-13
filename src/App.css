@@ -1,0 +1,28 @@
+:root {
+    --body-color: #F4F5F9;
+    --background-color: #FFFFFF;
+    --background-color-hover: #F3F3F3;
+    --background-color-dark: #e3e3ea;
+    --primary-color: #DB9161;
+    --primary-color-dark: #C75f3e;
+    --primary-color-light: #E8af8e;
+    --primary-color-variant: #C77d4f;
+    --red-color: #ea5a42;
+    --secondary-color: #656b76;
+    --secondary-color-variant: #8e98a5;
+    --seconday-dark-color: #4f585b;
+    --dark-color: #1d2223;
+}
+
+#root {
+    height: 100vh;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+.align-text {
+    text-align: center;
+}
+

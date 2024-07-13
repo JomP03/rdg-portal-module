@@ -1,0 +1,13 @@
+.show-more-button {
+    background: none;
+    color: var(--secondary-color-variant);
+    padding: 0 6px;
+    cursor: pointer;
+    border: none;
+    text-decoration: underline;
+}
+
+
+.show-more-button:hover {
+    color: var(--secondary-color);
+}

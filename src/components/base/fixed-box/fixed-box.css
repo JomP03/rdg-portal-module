@@ -1,0 +1,6 @@
+/*center the content*/
+.fixed-box-content {
+    padding: 0.5rem;
+    text-align: center;
+    align-items: center;
+}

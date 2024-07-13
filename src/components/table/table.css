@@ -1,0 +1,19 @@
+.custom-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.table-body {
+    padding: 10px 10px 0 10px;
+}
+
+@media (max-width: 650px) {
+    .custom-table {
+        border-spacing: 0 5px;
+    }
+    .table-body {
+        padding: 5px;
+    }
+}
+

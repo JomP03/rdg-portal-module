@@ -1,0 +1,39 @@
+.upload-button {
+    display: flex;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin: 0 10px;
+    min-height: 25px;
+    align-items: center;
+}
+
+.upload-button:hover {
+    background-color: var(--secondary-color-variant);
+}
+
+.upload-button:active {
+    background-color: var(--seconday-dark-color);
+    transform: translateY(5px);
+    transition: 0.2s;
+}
+
+.upload-button input[type="file"] {
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    .upload-button {
+        font-size: 0.95rem;
+    }
+}
+
+.file-icon {
+    width: 35px;
+    height: auto;
+    margin-right: 10px;
+}

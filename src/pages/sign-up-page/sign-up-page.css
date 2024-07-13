@@ -1,0 +1,109 @@
+
+.square-container {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: absolute; 
+    top: 0; bottom: 0; left: 0; right: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 40px;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.55);
+    overflow: hidden;
+    overflow-y: auto; /* Adiciona scroll vertical se necessário */
+}
+
+.sign-up-logo {
+    width: 20%;
+    height: auto;
+}
+
+.create-account-info, .create-account-form {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.create-account-info {
+    border-radius: 40px 0 0 40px;
+    width: 60%;
+}
+
+.create-account-form {
+    border-radius: 0 40px 40px 0;
+    background: var(--body-color);
+    width: 40%;
+}
+
+.background-gradient {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+}
+
+
+.header-title{
+    width:100%;
+    text-align: center;
+}
+
+.title-custom {
+    text-align: center;
+}
+
+.button{
+    overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+    .create-account-form {
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .create-account-info {
+        display: none;
+    }
+}
+
+ /*Media query for devices with width less than or equal to 600px */
+@media only screen and (max-width: 600px) {
+    .square-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .sign-up-logo {
+        width: 50%;
+    }
+
+    .create-account-info, .create-account-form {
+        width: 100%;
+    }
+
+    .create-account-info {
+        border-radius: 40px 40px 0 0;
+        width:100%;
+    }
+
+    .create-account-form {
+        border-radius: 0 0 40px 40px;
+        width:100%;
+    }
+
+    .header-title {
+        width:50%;
+    }
+    .button{
+        overflow: hidden;
+    }
+}

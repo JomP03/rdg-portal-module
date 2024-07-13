@@ -1,0 +1,45 @@
+.table-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    color: #656B76;
+    text-align: left;
+    font-family: "Montserrat Light", sans-serif;
+    position: relative;
+    margin-bottom: -1rem;
+}
+
+.table-column {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    font-family: "Montserrat Light", sans-serif;
+    color: var(--secondary-color);
+    overflow: clip;
+}
+
+.table-column:last-child {
+    border-right: none;
+}
+
+.button-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* media queries that reduce the size of the table header and table columns */
+@media screen and (max-width: 650px) {
+
+    .table-column {
+        font-size: 0.95rem;
+    }
+
+    .button-container {
+        right: 0;
+        top: 0;
+        width: 2.5rem;
+    }
+}

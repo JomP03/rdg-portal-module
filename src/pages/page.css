@@ -1,0 +1,17 @@
+.page-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.main-titles{
+    text-align: center;
+}
+
+@media screen and (max-width: 912px) {
+    .page-content {
+        width: 90%;
+        padding: 5px;
+    }
+}

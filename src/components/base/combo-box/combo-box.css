@@ -1,0 +1,16 @@
+
+
+.combo-box {
+  height: auto;
+  font-size: 1.3rem;
+  font-family: 'Montserrat Medium', sans-serif;
+  border-color: var(--secondary-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+{
+  font-size: 1.3rem;
+}

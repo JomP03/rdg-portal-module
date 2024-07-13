@@ -1,0 +1,157 @@
+/* Add this CSS to your styles file or component */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Style for the ProfilePage component */
+.ProfilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 100vh;
+  background-color: #f2f2f2; /* Set your background color */
+  padding: 20px; /* Add some padding for better spacing */
+  overflow:auto;
+  
+}
+
+.export-data-title,
+.delete-account-title {
+  font-size: 1.5rem; /* Adjust title font size */
+  margin-bottom: 0.5rem;
+}
+
+.export-data-text,
+.delete-account-text {
+  font-size: 1rem; /* Adjust paragraph font size */
+  margin-bottom: 1rem;
+}
+
+.delete-account-title {
+  color: rgb(208, 63, 63);
+}
+
+.button {
+  font-size: 1rem; /* Adjust button font size */
+  margin-bottom: 1.5rem;
+}
+
+.profile-actions {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  padding: 15px;
+  padding-top: 5%;
+  z-index: 1000; /* Set a higher z-index to ensure it appears above other elements */
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.profile-picture {
+  width: 120px; /* Adjust the width as needed */
+  margin-right: 20px;
+}
+
+.profile-name,
+.profile-email,
+.profile-nif,
+.profile-contact {
+  margin: 0;
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+/* Additional styling if needed */
+.profile-name b,
+.profile-email b,
+.profile-nif b,
+.profile-contact b {
+  font-weight: bold;
+  margin-right: 5px; /* Adjust the margin as needed */
+}
+
+
+
+.profile-edit-button {
+  background: none;
+  color: var(--background-color);
+  border: none;
+  cursor: pointer;
+  margin-left: 200px;
+}
+
+.profile-edit-button:disabled {
+  opacity: 0;
+  cursor:default;
+  width: 0;
+}
+
+
+.profile-edit-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 20px;
+  min-height: auto;
+}
+
+.profile-edit-button img:hover{
+  display: block;
+  width: 105%;
+  height: auto;
+  transition: 0.2s;
+}
+
+.profile-edit-button img:active{
+  display: block;
+  width: 95%;
+  height: auto;
+  transition: 0.2s;
+}
+
+
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .ProfilePage {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .profile-info {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .profile-picture {
+    margin-right: 0; /* Remove margin on smaller screens */
+    margin-bottom: 10px; /* Add some space between picture and text on smaller screens */
+  }
+
+  .profile-name,
+  .profile-email,
+  .profile-role,
+  .profile-contact {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .profile-actions {
+    position: relative; /* Remove fixed position on smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+}

@@ -1,0 +1,35 @@
+.image-button {
+    background: none;
+    color: var(--background-color);
+    border: none;
+    cursor: pointer;
+}
+
+.image-button:disabled {
+    opacity: 0;
+    cursor:default;
+    width: 0;
+}
+
+
+.image-button img {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-width: 20px;
+    min-height: auto;
+}
+
+.image-button img:hover{
+    display: block;
+    width: 105%;
+    height: auto;
+    transition: 0.2s;
+}
+
+.image-button img:active{
+    display: block;
+    width: 95%;
+    height: auto;
+    transition: 0.2s;
+}

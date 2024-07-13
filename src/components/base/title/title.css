@@ -1,0 +1,6 @@
+.title-custom {
+    font-family: "Montserrat Medium", sans-serif;
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+}

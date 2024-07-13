@@ -1,0 +1,12 @@
+.page-panel {
+    background: var(--primary-color);
+    padding: 15px 50px;
+    height: 40vh;
+}
+
+@media (max-width: 912px) {
+    .page-panel {
+        padding: 15px 10px;
+        height: 20vh;
+    }
+}
